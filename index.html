@@ -1,33 +1,58 @@
 <!DOCTYPE html>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
 
-    <html style="background-color: blanchedalmond;">
-        <script type="module" src="piece.js">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+<html style="background-color: grey;">
+
+<script type='module' src='./main.js'></script>
+
+<header>
+    <title>
+        Chess V2 
+    </title>
+</header>
+
+<nav class="navbar navbar bg-green text-center col-12" style='color: black;'>
+    <span class="navbar-brand mb-0 h1 text-center col-12" style='background-color: black;'>
+                <span class="navbar-brand mb-12 h1 text-center col-4" style='background-color: grey;'>
+                    <button style="background-color: rgb(0, 0, 0)" onclick="alert('Welcome to Chess V2! The pieces and board are click and pick. The rules are the same as those of customary chess. White moves first, and castles are initiated by the relevant king. Have fun, and happy strategizing! ')">
+                        Chess V2
+                    </button>
+                </span>
+    </span>
+
+</nav>
+
+
+<body style="background-color: grey">
         
-
-        </script>
-        <script src='main.js'></script>
-        <header>
-            <title>
-                Chess V2 
-            </title>
-            
-        </header>
-        
-        <body>
-
-            
-
-            <button onclick= 'makeboard(30);' src='./main.js'>
-                Start
-
-            </button>
+</body>
 
 
 
-        </body>
+</html>
+<footer class="footer col-12 " style="position: fixed; bottom: 0;">
+    <span class="navbar navbar col-12 text-center" style="background-color: black; color: grey">
+        <span class='navbar-brand col-12 text-center'>
+            <a href= "https://oadelokiki.github.io/oadelokiki"> <button>
+                Development Portfolio
+        </button>         </a>
+        </span>
 
-        <footer>
+        <b></b>
+        <span class='navbar-brand col-12 text-center'>
+            <a href="mailto: olus.software@gmail.com?subject=Chess" > <button>
+                   Contact
+        </button>         </a>
+        </span>
 
-        </footer>
-
-    </html>
+    </span>    
+</footer>
