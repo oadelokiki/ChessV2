@@ -16,6 +16,7 @@ center.appendChild(ChessTable);
 
 
 export default function makeboard(){
+    console.log("Welcome to Chess V2, by Olu Adelokiki")
     if(center != null){
         center.removeChild(ChessTable);
     }
